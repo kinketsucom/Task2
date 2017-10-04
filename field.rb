@@ -1,5 +1,6 @@
 class Field
     attr_accessor :base
+
     def initialize()
       @base = { 1 => 0, 2 => 0, 3 => 0}
     end
@@ -39,4 +40,5 @@ class Field
         return score
       end
     end
+
 end

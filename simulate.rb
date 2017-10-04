@@ -37,7 +37,7 @@ def simulateGame(team_a, team_b, field)
         showScore(team_a,team_b)
         field.removeRunner()
         puts ""
-        # sleep(1)
+        sleep(1)
 
         puts "-----"
         puts "#{i}回裏"
@@ -46,7 +46,7 @@ def simulateGame(team_a, team_b, field)
         showScore(team_a,team_b)
         field.removeRunner()
         puts ""
-        # sleep(1)
+        sleep(1)
     end
     showEnd()
     showScore(team_a,team_b)

@@ -18,6 +18,5 @@ class Team
       @member.store(key,player) #これで打順と能力がキマるはず
     end
 
-
   end
 end
