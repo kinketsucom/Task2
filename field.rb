@@ -38,5 +38,5 @@ class Field
         @base[1] = 0
         return score
       end
-
+    end
 end
